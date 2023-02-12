@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "77b25690-d2e3-4cfa-b642-ccb17b461d3c",
+		"name": "Prac1_Wather_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://44.202.196.34:8000//content/api/v1/integration/generate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"token\": \"QYEM7AU9Qdax\",\n\"requester_name\": \"Artem Shakirov\",\n\"location\": \"Kharkiv\",\n\"date\": \"2022-04-21\"\n}"
+				},
+				"url": {
+					"raw": "http://44.202.196.34:8000//content/api/v1/integration/generate",
+					"protocol": "http",
+					"host": [
+						"44",
+						"202",
+						"196",
+						"34"
+					],
+					"port": "8000",
+					"path": [
+						"",
+						"content",
+						"api",
+						"v1",
+						"integration",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
